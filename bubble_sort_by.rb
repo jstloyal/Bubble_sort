@@ -1,16 +1,14 @@
-def bubble_sort_by(array)
-  item_index = 0
+def bubble_sort_by(arr)
+  index = 0
   loop do
-    next_index = item_index + 1
+    next_index = index + 1
     loop do
-      if yield(array[item_index], array[next_index]).positive?
-        array[item_index], array[next_index] = array[next_index], array[item_index]
-      end
+      arr[index], arr[next_index] = arr[next_index], arr[index] if yield(arr[index], arr[next_index]).positive?
       next_index += 1
-      break unless next_index < array.size
+      break unless next_index < arr.size
     end
-    item_index += 1
-    break unless item_index < array.size - 1
+    index += 1
+    break unless index < arr.size - 1
   end
-  array
+  arr
 end

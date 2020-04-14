@@ -1,14 +1,14 @@
 def bubble_sort(arr)
-  item = 0
+  index = 0
   loop do
-    item_compare = item + 1
+    item_compare = index + 1
     loop do
-      arr[item], arr[item_compare] = arr[item_compare], arr[item] if arr[item] > arr[item_compare]
+      arr[index], arr[item_compare] = arr[item_compare], arr[index] if arr[index] > arr[item_compare]
       item_compare += 1
-      break if item_compare > (arr.length - 1)
+      break if item_compare > (arr.size - 1)
     end
-    item += 1
-    break if item > (arr.length - 2)
+    index += 1
+    break if index > (arr.size - 2)
   end
   arr
 end
