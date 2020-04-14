@@ -14,7 +14,3 @@ def bubble_sort_by(array)
   end
   array
 end
-
-p bubble_sort_by(%w[hey delete hi hello]) { |a, b|
-  a.size <=> b.size
-}
