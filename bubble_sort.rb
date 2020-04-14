@@ -1,16 +1,19 @@
-def bubble_sort(array)
-  depth = array.size - 1 
-  loop do 
-    sorted = false
-    depth.times do |x|
-      if array[x] > array[x + 1]
-        sorted = true
-        array[x], array[x + 1] = array[x + 1], array[x]
+def bubble_sort(arr)
+  item = 0
+  loop do
+    item_compare = item + 1
+    loop do
+      if arr[item] > arr[item_compare]
+        arr[item], arr[item_compare] = arr[item_compare], arr[item]
       end
+      item_compare += 1
+      break if item_compare > (arr.length - 1)
     end
-    break unless sorted
+    item += 1
+    break if item > (arr.length - 2)
   end
-  array
+  arr
 end
 
-p bubble_sort([6,2,9,4,1])
+p bubble_sort(["zebra", "ant", "zink", "apple", "soccer", "ball"])
+p bubble_sort([23, 2, 17, 54, 4, 2, 9])
