@@ -3,9 +3,7 @@ def bubble_sort(arr)
   loop do
     item_compare = item + 1
     loop do
-      if arr[item] > arr[item_compare]
-        arr[item], arr[item_compare] = arr[item_compare], arr[item]
-      end
+      arr[item], arr[item_compare] = arr[item_compare], arr[item] if arr[item] > arr[item_compare]
       item_compare += 1
       break if item_compare > (arr.length - 1)
     end

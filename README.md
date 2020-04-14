@@ -1,4 +1,5 @@
-# Demonstration of The Bubble Sort Algorithm 
+# Demonstration of The Bubble Sort Algorithm
+
 A demonstration of bubble-sort method which sorts in ascending mode the elements of a collection using Ruby language.
 This is a project of the Microverse Ruby Course.
 
@@ -17,6 +18,7 @@ This is a project of the Microverse Ruby Course.
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -25,7 +27,7 @@ This is a project of the Microverse Ruby Course.
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/ioanniskousis/bubble_sort">
+  <a href="https://github.com/jstloyal/Bubble_sort">
     <img src="images/microverse.png" alt="Microverse Logo" width="80" height="80">
   </a>
   
@@ -34,16 +36,17 @@ This is a project of the Microverse Ruby Course.
   <p align="center">
     This project is part of the Microverse curriculum in Ruby module!
     <br />
-    <a href="https://github.com/ioanniskousis/bubble_sort"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/jstloyal/Bubble_sort"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://repl.it/@ioanniskousis/bubblesort">View Demo</a>
-    <a href="https://github.com/ioanniskousis/bubble_sort/issues">Report Bug</a>
-    <a href="https://github.com/ioanniskousis/bubble_sort/issues">Request Feature</a>
+    <a href="https://github.com/jstloyal/Bubble_sort/issues">Report Bug</a>
+    <a href="https://github.com/jstloyal/Bubble_sort/issues">Request Feature</a>
   </p>
 </p>
 
 <!-- TABLE OF CONTENTS -->
+
 ## Table of Contents
 
 - [About the Project](#about-the-project)
@@ -53,9 +56,11 @@ This is a project of the Microverse Ruby Course.
 - [License](#license)
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 The project consists of three code files
+
 - bubble_sort.rb
   Contains the method bubble_sort.
   The bubble_sort methods accepts either an array of numbers and sorts them according to their value in ascending order or an array of strings and sorts them in ascending order alphabetically.
@@ -73,31 +78,45 @@ The project consists of three code files
 Both methods include an optimization practice by reducing the total number of comparisons required in the original Bubble-Sort Algorithm. Actually, since at every loop of sorting the largest item is bubbled at the end of the list, the number of comparisons is reduced by one after every loop circle.
 
 <!-- ABOUT THE PROJECT -->
+
 ## Testing
 
 You may test the code either by running the test.rb file using Ruby or provide your own array such as
+
 - for bubble_sort
   [10, 9, 5, 2, 3, 4] or
   [5.45, 3.1, 3, 2, 1]
 - for bubble_sort_by
   ['avalon', 'beta', 'con']
   Please note, the method bubble_sort_by requires a block of the form {|x, y| x <=> y}.
-  
+
 ### Built With
+
 This project was built using these technologies.
+
 - Ruby
 - Rubocop
 - VsCode
 
 <!-- LIVE VERSION -->
+
 ## Live version
 
-You can see it working [![Run on Repl.it](https://repl.it/badge/github/ioanniskousis/bubble_sort)](https://repl.it/@ioanniskousis/bubblesort)
+You can see it working [![Run on Repl.it](https://repl.it/badge/github/jstloyal/Bubble_sort)]()
 
 <!-- CONTACT -->
+
 ## Contributors
 
-:bust_in_silhouette: **Author**
+:bust_in_silhouette: **Author_1**
+​## Adetayo Sunkanmi
+
+- Github: [@jstloyal](https://github.com/jstloyal)
+- Twitter: [@jstloyalty](https://twitter.com/jstloyalty)
+- Linkedin: [Adetayo Sunkanmi](https://www.linkedin.com/in/jstloyalty)
+- E-mail: jstloyalty@gmail.com
+
+:bust_in_silhouette: **Author_2**
 ​## Ioannis Kousis
 
 - Github: [@ioanniskousis](https://github.com/ioanniskousis)
@@ -105,27 +124,29 @@ You can see it working [![Run on Repl.it](https://repl.it/badge/github/ioannisko
 - Linkedin: [Ioannis Kousis](https://www.linkedin.com/in/ioannis-kousis-9a5051b4/)
 - E-mail: jgkousis@gmail.com
 
-
 <!-- ACKNOWLEDGEMENTS -->
+
 ## Acknowledgements
+
 - [Microverse](https://www.microverse.org/)
 - [The Odin Project](https://www.theodinproject.com/)
 - [Ruby Documentation](https://www.ruby-lang.org/en/documentation/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/ioanniskousis/bubble_sort.svg?style=flat-square
-[contributors-url]: https://github.com/ioanniskousis/bubble_sort/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ioanniskousis/bubble_sort.svg?style=flat-square
-[forks-url]: https://github.com/ioanniskousis/bubble_sort/network/members
-[stars-shield]: https://img.shields.io/github/stars/ioanniskousis/bubble_sort.svg?style=flat-square
-[stars-url]: https://github.com/ioanniskousis/bubble_sort/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ioanniskousis/bubble_sort.svg?style=flat-square
-[issues-url]: https://github.com/ioanniskousis/bubble_sort/issues
-[product-screenshot]: images/bubble_sort.jpg
 
+[contributors-shield]: https://img.shields.io/github/contributors/jstloyal/Bubble_sort.svg?style=flat-square
+[contributors-url]: https://github.com/jstloyal/Bubble_sort/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jstloyal/Bubble_sort.svg?style=flat-square
+[forks-url]: https://github.com/jstloyal/Bubble_sort/network/members
+[stars-shield]: https://img.shields.io/github/stars/jstloyal/Bubble_sort.svg?style=flat-square
+[stars-url]: https://github.com/jstloyal/Bubble_sort/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jstloyal/Bubble_sort.svg?style=flat-square
+[issues-url]: https://github.com/jstloyal/Bubble_sort/issues
 
 <!-- LICENSE -->
+
 ## License
+
 📝
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
