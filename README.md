@@ -73,9 +73,7 @@ The project consists of three code files
   An error occurs if the method is passed an array of numbers.
 
 - test.rb
-  Contains test code for the two methods
-
-Both methods include an optimization practice by reducing the total number of comparisons required in the original Bubble-Sort Algorithm. Actually, since at every loop of sorting the largest item is bubbled at the end of the list, the number of comparisons is reduced by one after every loop circle.
+  Contains test code for the two methods.
 
 <!-- ABOUT THE PROJECT -->
 
