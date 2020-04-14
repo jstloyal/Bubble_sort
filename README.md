@@ -39,7 +39,7 @@ This is a project of the Microverse Ruby Course.
     <a href="https://github.com/jstloyal/Bubble_sort"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://repl.it/@ioanniskousis/bubblesort">View Demo</a>
+    <a href="https://repl.it/@jstloyalty/Bubblesort">View Demo</a>
     <a href="https://github.com/jstloyal/Bubble_sort/issues">Report Bug</a>
     <a href="https://github.com/jstloyal/Bubble_sort/issues">Request Feature</a>
   </p>
@@ -102,7 +102,7 @@ This project was built using these technologies.
 
 ## Live version
 
-You can see it working [![Run on Repl.it](https://repl.it/badge/github/jstloyal/Bubble_sort)]()
+You can see it working [![Run on Repl.it](https://repl.it/badge/github/jstloyal/Bubble_sort)](https://repl.it/@jstloyalty/Bubblesort)
 
 <!-- CONTACT -->
 
